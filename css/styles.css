@@ -1,0 +1,58 @@
+.header {
+    background-color: rgb(151, 167, 105);
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.navigation .nav-list {
+    list-style-type: none;
+    text-align: center; 
+}
+
+.navigation .nav-list .nav-list-item {
+    display: inline;
+    width: 100%;
+    padding-right: 16px;
+}
+
+.navigation .nav-list .nav-list-item-furniture {
+    position: relative;
+}
+
+.navigation .nav-list .nav-list-item .furniture-options {
+    position: absolute;
+    background: rgb(248, 248, 248);
+    border: solid 1px rgb(222, 222, 222);
+    width: 140px;
+}
+
+.navigation .nav-list .nav-list-item .furniture-options .furniture-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation .nav-list .nav-list-item .furniture-options .furniture-list .furniture-list-item {
+    border-top: solid 1px rgb(222, 222, 222);
+    padding: 8px;
+}
+
+.navigation .nav-list .nav-list-item .furniture-options .furniture-list .furniture-list-item a {
+    text-decoration: none;
+}
+
+.navigation .nav-list .hide .furniture-options {
+    display: none;
+}
+
+main div {
+    display: flex;
+    text-align: center;
+}
+
+footer {
+    height: 124px;
+    background-color: rgb(151, 167, 105);
+}
